@@ -1,0 +1,12 @@
+D:\Work\Fartak\Source\Back\Fartak\src\Core\Fartak.Domain\obj\Debug\net8.0\Fartak.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\Fartak\Source\Back\Fartak\src\Core\Fartak.Domain\obj\Debug\net8.0\Fartak.Domain.AssemblyInfoInputs.cache
+D:\Work\Fartak\Source\Back\Fartak\src\Core\Fartak.Domain\obj\Debug\net8.0\Fartak.Domain.AssemblyInfo.cs
+D:\Work\Fartak\Source\Back\Fartak\src\Core\Fartak.Domain\obj\Debug\net8.0\Fartak.Domain.csproj.CoreCompileInputs.cache
+D:\Work\Fartak\Source\Back\Fartak\src\Core\Fartak.Domain\obj\Debug\net8.0\Fartak.Domain.csproj.AssemblyReference.cache
+D:\Work\Fartak\Source\Back\Fartak\src\Core\Fartak.Domain\bin\Debug\net8.0\Fartak.Domain.deps.json
+D:\Work\Fartak\Source\Back\Fartak\src\Core\Fartak.Domain\bin\Debug\net8.0\Fartak.Domain.dll
+D:\Work\Fartak\Source\Back\Fartak\src\Core\Fartak.Domain\bin\Debug\net8.0\Fartak.Domain.pdb
+D:\Work\Fartak\Source\Back\Fartak\src\Core\Fartak.Domain\obj\Debug\net8.0\Fartak.Domain.dll
+D:\Work\Fartak\Source\Back\Fartak\src\Core\Fartak.Domain\obj\Debug\net8.0\refint\Fartak.Domain.dll
+D:\Work\Fartak\Source\Back\Fartak\src\Core\Fartak.Domain\obj\Debug\net8.0\Fartak.Domain.pdb
+D:\Work\Fartak\Source\Back\Fartak\src\Core\Fartak.Domain\obj\Debug\net8.0\ref\Fartak.Domain.dll
