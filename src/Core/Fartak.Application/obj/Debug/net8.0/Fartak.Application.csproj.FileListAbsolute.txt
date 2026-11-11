@@ -1,0 +1,6 @@
+D:\Work\Fartak\Source\Back\Fartak\src\Core\Fartak.Application\obj\Debug\net8.0\Fartak.Application.csproj.AssemblyReference.cache
+D:\Work\Fartak\Source\Back\Fartak\src\Core\Fartak.Application\obj\Debug\net8.0\Fartak.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\Fartak\Source\Back\Fartak\src\Core\Fartak.Application\obj\Debug\net8.0\Fartak.Application.AssemblyInfoInputs.cache
+D:\Work\Fartak\Source\Back\Fartak\src\Core\Fartak.Application\obj\Debug\net8.0\Fartak.Application.AssemblyInfo.cs
+D:\Work\Fartak\Source\Back\Fartak\src\Core\Fartak.Application\obj\Debug\net8.0\Fartak.Application.csproj.CoreCompileInputs.cache
+D:\Work\Fartak\Source\Back\Fartak\src\Core\Fartak.Application\obj\Debug\net8.0\Fartak.Application.sourcelink.json

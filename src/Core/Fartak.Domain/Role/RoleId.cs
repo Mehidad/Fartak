@@ -7,6 +7,8 @@ using Fartak.Domain.Framework;
 
 namespace Fartak.Domain.Role
 {
+    // شناسه یک ردیف از جدول roles (نقش‌های سیستم: admin/expert/farmer/fina)
+    // در Aggregate «Role» (Role.cs) استفاده می‌شود
     public sealed record RoleId
     {
         public long Value { get; }

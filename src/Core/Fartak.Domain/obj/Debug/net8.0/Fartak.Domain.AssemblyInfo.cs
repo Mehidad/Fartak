@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fartak.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99be00be084c47c8a97a31f60f5f23423efca85e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fartak.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fartak.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

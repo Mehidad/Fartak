@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A0DEDC9D-5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fartak.Domain", "src\Core\Fartak.Domain\Fartak.Domain.csproj", "{9F30F243-618C-462C-BFD6-7E5D40B8F44F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fartak.Application", "src\Core\Fartak.Application\Fartak.Application.csproj", "{0A7117A8-2C74-42AA-8662-971983AE4A4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{9F30F243-618C-462C-BFD6-7E5D40B8F44F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F30F243-618C-462C-BFD6-7E5D40B8F44F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F30F243-618C-462C-BFD6-7E5D40B8F44F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A7117A8-2C74-42AA-8662-971983AE4A4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A7117A8-2C74-42AA-8662-971983AE4A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A7117A8-2C74-42AA-8662-971983AE4A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A7117A8-2C74-42AA-8662-971983AE4A4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +40,7 @@ Global
 		{B9B9B01F-1D55-4E90-9E94-CB632997DF55} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{8BC551FF-2EED-492C-9E8E-FDB54261FF05} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{9F30F243-618C-462C-BFD6-7E5D40B8F44F} = {B9B9B01F-1D55-4E90-9E94-CB632997DF55}
+		{0A7117A8-2C74-42AA-8662-971983AE4A4E} = {B9B9B01F-1D55-4E90-9E94-CB632997DF55}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {09DF0003-6138-486F-B424-A29B66F1123F}
