@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0A7117A8-2C74-42AA-8662-971983AE4A4E}|src\\Core\\Fartak.Application\\Fartak.Application.csproj|d:\\work\\fartak\\source\\back\\fartak\\src\\core\\fartak.application\\contract\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A7117A8-2C74-42AA-8662-971983AE4A4E}|src\\Core\\Fartak.Application\\Fartak.Application.csproj|solutionrelative:src\\core\\fartak.application\\contract\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A7117A8-2C74-42AA-8662-971983AE4A4E}|src\\Core\\Fartak.Application\\Fartak.Application.csproj|d:\\work\\fartak\\source\\back\\fartak\\src\\core\\fartak.application\\role\\commands\\createrolecommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A7117A8-2C74-42AA-8662-971983AE4A4E}|src\\Core\\Fartak.Application\\Fartak.Application.csproj|solutionrelative:src\\core\\fartak.application\\role\\commands\\createrolecommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A7117A8-2C74-42AA-8662-971983AE4A4E}|src\\Core\\Fartak.Application\\Fartak.Application.csproj|d:\\work\\fartak\\source\\back\\fartak\\src\\core\\fartak.application\\fartak.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0A7117A8-2C74-42AA-8662-971983AE4A4E}|src\\Core\\Fartak.Application\\Fartak.Application.csproj|solutionrelative:src\\core\\fartak.application\\fartak.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A7117A8-2C74-42AA-8662-971983AE4A4E}|src\\Core\\Fartak.Application\\Fartak.Application.csproj|d:\\work\\fartak\\source\\back\\fartak\\src\\core\\fartak.application\\role\\commands\\createrolecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A7117A8-2C74-42AA-8662-971983AE4A4E}|src\\Core\\Fartak.Application\\Fartak.Application.csproj|solutionrelative:src\\core\\fartak.application\\role\\commands\\createrolecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A7117A8-2C74-42AA-8662-971983AE4A4E}|src\\Core\\Fartak.Application\\Fartak.Application.csproj|d:\\work\\fartak\\source\\back\\fartak\\src\\core\\fartak.application\\role\\commands\\createrolecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A7117A8-2C74-42AA-8662-971983AE4A4E}|src\\Core\\Fartak.Application\\Fartak.Application.csproj|solutionrelative:src\\core\\fartak.application\\role\\commands\\createrolecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +31,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\src\\Core\\Fartak.Application\\Contract\\IRepository.cs",
-              "RelativeDocumentMoniker": "src\\Core\\Fartak.Application\\Contract\\IRepository.cs",
-              "ToolTip": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\src\\Core\\Fartak.Application\\Contract\\IRepository.cs",
-              "RelativeToolTip": "src\\Core\\Fartak.Application\\Contract\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "CreateRoleCommandValidator.cs",
+              "DocumentMoniker": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\src\\Core\\Fartak.Application\\Role\\Commands\\CreateRoleCommandValidator.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Fartak.Application\\Role\\Commands\\CreateRoleCommandValidator.cs",
+              "ToolTip": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\src\\Core\\Fartak.Application\\Role\\Commands\\CreateRoleCommandValidator.cs",
+              "RelativeToolTip": "src\\Core\\Fartak.Application\\Role\\Commands\\CreateRoleCommandValidator.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-11T12:31:44.773Z",
+              "WhenOpened": "2026-11-11T14:33:40.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Fartak.Application",
+              "DocumentMoniker": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\src\\Core\\Fartak.Application\\Fartak.Application.csproj",
+              "RelativeDocumentMoniker": "src\\Core\\Fartak.Application\\Fartak.Application.csproj",
+              "ToolTip": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\src\\Core\\Fartak.Application\\Fartak.Application.csproj",
+              "RelativeToolTip": "src\\Core\\Fartak.Application\\Fartak.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-11T14:33:10.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateRoleCommand.cs",
+              "DocumentMoniker": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\src\\Core\\Fartak.Application\\Role\\Commands\\CreateRoleCommand.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Fartak.Application\\Role\\Commands\\CreateRoleCommand.cs",
+              "ToolTip": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\src\\Core\\Fartak.Application\\Role\\Commands\\CreateRoleCommand.cs",
+              "RelativeToolTip": "src\\Core\\Fartak.Application\\Role\\Commands\\CreateRoleCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T14:31:39.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateRoleCommandHandler.cs",
+              "DocumentMoniker": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\src\\Core\\Fartak.Application\\Role\\Commands\\CreateRoleCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Fartak.Application\\Role\\Commands\\CreateRoleCommandHandler.cs",
+              "ToolTip": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\src\\Core\\Fartak.Application\\Role\\Commands\\CreateRoleCommandHandler.cs",
+              "RelativeToolTip": "src\\Core\\Fartak.Application\\Role\\Commands\\CreateRoleCommandHandler.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwA8AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T14:31:17.82Z",
               "EditorCaption": ""
             }
           ]

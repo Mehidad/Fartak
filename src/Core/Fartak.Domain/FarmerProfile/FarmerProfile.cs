@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Fartak.Domain.FarmerProfile.Events;
 using Fartak.Domain.Framework;
 using Fartak.Domain.Region;
 using Fartak.Domain.User.Fartak.Domain.User;

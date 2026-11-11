@@ -4,3 +4,13 @@ D:\Work\Fartak\Source\Back\Fartak\src\Core\Fartak.Application\obj\Debug\net8.0\F
 D:\Work\Fartak\Source\Back\Fartak\src\Core\Fartak.Application\obj\Debug\net8.0\Fartak.Application.AssemblyInfo.cs
 D:\Work\Fartak\Source\Back\Fartak\src\Core\Fartak.Application\obj\Debug\net8.0\Fartak.Application.csproj.CoreCompileInputs.cache
 D:\Work\Fartak\Source\Back\Fartak\src\Core\Fartak.Application\obj\Debug\net8.0\Fartak.Application.sourcelink.json
+D:\Work\Fartak\Source\Back\Fartak\src\Core\Fartak.Application\bin\Debug\net8.0\Fartak.Application.deps.json
+D:\Work\Fartak\Source\Back\Fartak\src\Core\Fartak.Application\bin\Debug\net8.0\Fartak.Application.dll
+D:\Work\Fartak\Source\Back\Fartak\src\Core\Fartak.Application\bin\Debug\net8.0\Fartak.Application.pdb
+D:\Work\Fartak\Source\Back\Fartak\src\Core\Fartak.Application\bin\Debug\net8.0\Fartak.Domain.dll
+D:\Work\Fartak\Source\Back\Fartak\src\Core\Fartak.Application\bin\Debug\net8.0\Fartak.Domain.pdb
+D:\Work\Fartak\Source\Back\Fartak\src\Core\Fartak.Application\obj\Debug\net8.0\Fartak.A.628FAF75.Up2Date
+D:\Work\Fartak\Source\Back\Fartak\src\Core\Fartak.Application\obj\Debug\net8.0\Fartak.Application.dll
+D:\Work\Fartak\Source\Back\Fartak\src\Core\Fartak.Application\obj\Debug\net8.0\refint\Fartak.Application.dll
+D:\Work\Fartak\Source\Back\Fartak\src\Core\Fartak.Application\obj\Debug\net8.0\Fartak.Application.pdb
+D:\Work\Fartak\Source\Back\Fartak\src\Core\Fartak.Application\obj\Debug\net8.0\ref\Fartak.Application.dll

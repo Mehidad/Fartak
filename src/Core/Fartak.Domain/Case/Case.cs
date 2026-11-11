@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Fartak.Domain.Case.Events;
 using Fartak.Domain.Catalog;
 using Fartak.Domain.Common;
 using Fartak.Domain.Framework;
