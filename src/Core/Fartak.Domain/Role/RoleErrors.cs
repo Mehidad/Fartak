@@ -91,5 +91,6 @@ namespace Fartak.Domain.Role
                 });
         public static Error CodeAlreadyExists(string code) =>
     Error.Create("Role.Code.Duplicate", $"نقشی با کد '{code}' از قبل وجود دارد.");
-    }
+
+      }
 }

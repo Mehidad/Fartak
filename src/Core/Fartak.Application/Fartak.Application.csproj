@@ -13,9 +13,6 @@
 		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.8" />
 	</ItemGroup>
 	<ItemGroup>
-	  <Folder Include="Role\Queries\" />
-	</ItemGroup>
-	<ItemGroup>
 	  <ProjectReference Include="..\Fartak.Domain\Fartak.Domain.csproj" />
 	</ItemGroup>
 </Project>
