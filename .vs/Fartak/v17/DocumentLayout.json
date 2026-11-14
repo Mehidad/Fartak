@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F30F243-618C-462C-BFD6-7E5D40B8F44F}|src\\Core\\Fartak.Domain\\Fartak.Domain.csproj|d:\\work\\fartak\\source\\back\\fartak\\src\\core\\fartak.domain\\fieldvisit\\events\\visitanswerremovedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F30F243-618C-462C-BFD6-7E5D40B8F44F}|src\\Core\\Fartak.Domain\\Fartak.Domain.csproj|solutionrelative:src\\core\\fartak.domain\\fieldvisit\\events\\visitanswerremovedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F30F243-618C-462C-BFD6-7E5D40B8F44F}|src\\Core\\Fartak.Domain\\Fartak.Domain.csproj|d:\\work\\fartak\\source\\back\\fartak\\src\\core\\fartak.domain\\fieldvisit\\events\\visitanswerquestionchangedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F30F243-618C-462C-BFD6-7E5D40B8F44F}|src\\Core\\Fartak.Domain\\Fartak.Domain.csproj|solutionrelative:src\\core\\fartak.domain\\fieldvisit\\events\\visitanswerquestionchangedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F30F243-618C-462C-BFD6-7E5D40B8F44F}|src\\Core\\Fartak.Domain\\Fartak.Domain.csproj|d:\\work\\fartak\\source\\back\\fartak\\src\\core\\fartak.domain\\fieldvisit\\events\\visitanswernotechangedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F30F243-618C-462C-BFD6-7E5D40B8F44F}|src\\Core\\Fartak.Domain\\Fartak.Domain.csproj|solutionrelative:src\\core\\fartak.domain\\fieldvisit\\events\\visitanswernotechangedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F30F243-618C-462C-BFD6-7E5D40B8F44F}|src\\Core\\Fartak.Domain\\Fartak.Domain.csproj|d:\\work\\fartak\\source\\back\\fartak\\src\\core\\fartak.domain\\fieldvisit\\events\\visitanswervaluechangedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F30F243-618C-462C-BFD6-7E5D40B8F44F}|src\\Core\\Fartak.Domain\\Fartak.Domain.csproj|solutionrelative:src\\core\\fartak.domain\\fieldvisit\\events\\visitanswervaluechangedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F30F243-618C-462C-BFD6-7E5D40B8F44F}|src\\Core\\Fartak.Domain\\Fartak.Domain.csproj|d:\\work\\fartak\\source\\back\\fartak\\src\\core\\fartak.domain\\fieldvisit\\events\\visitansweraddedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F30F243-618C-462C-BFD6-7E5D40B8F44F}|src\\Core\\Fartak.Domain\\Fartak.Domain.csproj|solutionrelative:src\\core\\fartak.domain\\fieldvisit\\events\\visitansweraddedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F30F243-618C-462C-BFD6-7E5D40B8F44F}|src\\Core\\Fartak.Domain\\Fartak.Domain.csproj|d:\\work\\fartak\\source\\back\\fartak\\src\\core\\fartak.domain\\fieldvisit\\events\\fieldvisitschedulechangedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F30F243-618C-462C-BFD6-7E5D40B8F44F}|src\\Core\\Fartak.Domain\\Fartak.Domain.csproj|solutionrelative:src\\core\\fartak.domain\\fieldvisit\\events\\fieldvisitschedulechangedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F30F243-618C-462C-BFD6-7E5D40B8F44F}|src\\Core\\Fartak.Domain\\Fartak.Domain.csproj|d:\\work\\fartak\\source\\back\\fartak\\src\\core\\fartak.domain\\fieldvisit\\events\\fieldvisitgrowthstagechangedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F30F243-618C-462C-BFD6-7E5D40B8F44F}|src\\Core\\Fartak.Domain\\Fartak.Domain.csproj|solutionrelative:src\\core\\fartak.domain\\fieldvisit\\events\\fieldvisitgrowthstagechangedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F30F243-618C-462C-BFD6-7E5D40B8F44F}|src\\Core\\Fartak.Domain\\Fartak.Domain.csproj|d:\\work\\fartak\\source\\back\\fartak\\src\\core\\fartak.domain\\fieldvisit\\events\\fieldvisitsummarychangedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F30F243-618C-462C-BFD6-7E5D40B8F44F}|src\\Core\\Fartak.Domain\\Fartak.Domain.csproj|solutionrelative:src\\core\\fartak.domain\\fieldvisit\\events\\fieldvisitsummarychangedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F30F243-618C-462C-BFD6-7E5D40B8F44F}|src\\Core\\Fartak.Domain\\Fartak.Domain.csproj|d:\\work\\fartak\\source\\back\\fartak\\src\\core\\fartak.domain\\fieldvisit\\events\\fieldvisitvisitedatchangedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F30F243-618C-462C-BFD6-7E5D40B8F44F}|src\\Core\\Fartak.Domain\\Fartak.Domain.csproj|solutionrelative:src\\core\\fartak.domain\\fieldvisit\\events\\fieldvisitvisitedatchangedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F30F243-618C-462C-BFD6-7E5D40B8F44F}|src\\Core\\Fartak.Domain\\Fartak.Domain.csproj|d:\\work\\fartak\\source\\back\\fartak\\src\\core\\fartak.domain\\fieldvisit\\events\\fieldvisitcreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F30F243-618C-462C-BFD6-7E5D40B8F44F}|src\\Core\\Fartak.Domain\\Fartak.Domain.csproj|solutionrelative:src\\core\\fartak.domain\\fieldvisit\\events\\fieldvisitcreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F30F243-618C-462C-BFD6-7E5D40B8F44F}|src\\Core\\Fartak.Domain\\Fartak.Domain.csproj|d:\\work\\fartak\\source\\back\\fartak\\src\\core\\fartak.domain\\fieldvisit\\fieldvisiterrors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F30F243-618C-462C-BFD6-7E5D40B8F44F}|src\\Core\\Fartak.Domain\\Fartak.Domain.csproj|solutionrelative:src\\core\\fartak.domain\\fieldvisit\\fieldvisiterrors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F30F243-618C-462C-BFD6-7E5D40B8F44F}|src\\Core\\Fartak.Domain\\Fartak.Domain.csproj|d:\\work\\fartak\\source\\back\\fartak\\src\\core\\fartak.domain\\fieldvisit\\visitanswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F30F243-618C-462C-BFD6-7E5D40B8F44F}|src\\Core\\Fartak.Domain\\Fartak.Domain.csproj|solutionrelative:src\\core\\fartak.domain\\fieldvisit\\visitanswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F30F243-618C-462C-BFD6-7E5D40B8F44F}|src\\Core\\Fartak.Domain\\Fartak.Domain.csproj|d:\\work\\fartak\\source\\back\\fartak\\src\\core\\fartak.domain\\fieldvisit\\fieldvisit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F30F243-618C-462C-BFD6-7E5D40B8F44F}|src\\Core\\Fartak.Domain\\Fartak.Domain.csproj|solutionrelative:src\\core\\fartak.domain\\fieldvisit\\fieldvisit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F30F243-618C-462C-BFD6-7E5D40B8F44F}|src\\Core\\Fartak.Domain\\Fartak.Domain.csproj|d:\\work\\fartak\\source\\back\\fartak\\src\\core\\fartak.domain\\fieldvisit\\visitscheduleid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F30F243-618C-462C-BFD6-7E5D40B8F44F}|src\\Core\\Fartak.Domain\\Fartak.Domain.csproj|solutionrelative:src\\core\\fartak.domain\\fieldvisit\\visitscheduleid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VisitAnswerRemovedEvent.cs",
+              "DocumentMoniker": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\src\\Core\\Fartak.Domain\\FieldVisit\\Events\\VisitAnswerRemovedEvent.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Fartak.Domain\\FieldVisit\\Events\\VisitAnswerRemovedEvent.cs",
+              "ToolTip": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\src\\Core\\Fartak.Domain\\FieldVisit\\Events\\VisitAnswerRemovedEvent.cs",
+              "RelativeToolTip": "src\\Core\\Fartak.Domain\\FieldVisit\\Events\\VisitAnswerRemovedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T14:29:45.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VisitAnswerQuestionChangedEvent.cs",
+              "DocumentMoniker": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\src\\Core\\Fartak.Domain\\FieldVisit\\Events\\VisitAnswerQuestionChangedEvent.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Fartak.Domain\\FieldVisit\\Events\\VisitAnswerQuestionChangedEvent.cs",
+              "ToolTip": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\src\\Core\\Fartak.Domain\\FieldVisit\\Events\\VisitAnswerQuestionChangedEvent.cs",
+              "RelativeToolTip": "src\\Core\\Fartak.Domain\\FieldVisit\\Events\\VisitAnswerQuestionChangedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T14:29:28.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VisitAnswerNoteChangedEvent.cs",
+              "DocumentMoniker": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\src\\Core\\Fartak.Domain\\FieldVisit\\Events\\VisitAnswerNoteChangedEvent.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Fartak.Domain\\FieldVisit\\Events\\VisitAnswerNoteChangedEvent.cs",
+              "ToolTip": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\src\\Core\\Fartak.Domain\\FieldVisit\\Events\\VisitAnswerNoteChangedEvent.cs",
+              "RelativeToolTip": "src\\Core\\Fartak.Domain\\FieldVisit\\Events\\VisitAnswerNoteChangedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T14:29:07.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VisitAnswerValueChangedEvent.cs",
+              "DocumentMoniker": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\src\\Core\\Fartak.Domain\\FieldVisit\\Events\\VisitAnswerValueChangedEvent.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Fartak.Domain\\FieldVisit\\Events\\VisitAnswerValueChangedEvent.cs",
+              "ToolTip": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\src\\Core\\Fartak.Domain\\FieldVisit\\Events\\VisitAnswerValueChangedEvent.cs",
+              "RelativeToolTip": "src\\Core\\Fartak.Domain\\FieldVisit\\Events\\VisitAnswerValueChangedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T14:28:50.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VisitAnswerAddedEvent.cs",
+              "DocumentMoniker": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\src\\Core\\Fartak.Domain\\FieldVisit\\Events\\VisitAnswerAddedEvent.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Fartak.Domain\\FieldVisit\\Events\\VisitAnswerAddedEvent.cs",
+              "ToolTip": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\src\\Core\\Fartak.Domain\\FieldVisit\\Events\\VisitAnswerAddedEvent.cs",
+              "RelativeToolTip": "src\\Core\\Fartak.Domain\\FieldVisit\\Events\\VisitAnswerAddedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T14:28:31.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FieldVisitScheduleChangedEvent.cs",
+              "DocumentMoniker": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\src\\Core\\Fartak.Domain\\FieldVisit\\Events\\FieldVisitScheduleChangedEvent.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Fartak.Domain\\FieldVisit\\Events\\FieldVisitScheduleChangedEvent.cs",
+              "ToolTip": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\src\\Core\\Fartak.Domain\\FieldVisit\\Events\\FieldVisitScheduleChangedEvent.cs",
+              "RelativeToolTip": "src\\Core\\Fartak.Domain\\FieldVisit\\Events\\FieldVisitScheduleChangedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T14:28:13.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FieldVisitGrowthStageChangedEvent.cs",
+              "DocumentMoniker": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\src\\Core\\Fartak.Domain\\FieldVisit\\Events\\FieldVisitGrowthStageChangedEvent.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Fartak.Domain\\FieldVisit\\Events\\FieldVisitGrowthStageChangedEvent.cs",
+              "ToolTip": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\src\\Core\\Fartak.Domain\\FieldVisit\\Events\\FieldVisitGrowthStageChangedEvent.cs",
+              "RelativeToolTip": "src\\Core\\Fartak.Domain\\FieldVisit\\Events\\FieldVisitGrowthStageChangedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T14:27:37.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FieldVisitSummaryChangedEvent.cs",
+              "DocumentMoniker": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\src\\Core\\Fartak.Domain\\FieldVisit\\Events\\FieldVisitSummaryChangedEvent.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Fartak.Domain\\FieldVisit\\Events\\FieldVisitSummaryChangedEvent.cs",
+              "ToolTip": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\src\\Core\\Fartak.Domain\\FieldVisit\\Events\\FieldVisitSummaryChangedEvent.cs",
+              "RelativeToolTip": "src\\Core\\Fartak.Domain\\FieldVisit\\Events\\FieldVisitSummaryChangedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T14:27:10.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FieldVisitVisitedAtChangedEvent.cs",
+              "DocumentMoniker": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\src\\Core\\Fartak.Domain\\FieldVisit\\Events\\FieldVisitVisitedAtChangedEvent.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Fartak.Domain\\FieldVisit\\Events\\FieldVisitVisitedAtChangedEvent.cs",
+              "ToolTip": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\src\\Core\\Fartak.Domain\\FieldVisit\\Events\\FieldVisitVisitedAtChangedEvent.cs",
+              "RelativeToolTip": "src\\Core\\Fartak.Domain\\FieldVisit\\Events\\FieldVisitVisitedAtChangedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T14:26:51.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FieldVisitCreatedEvent.cs",
+              "DocumentMoniker": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\src\\Core\\Fartak.Domain\\FieldVisit\\Events\\FieldVisitCreatedEvent.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Fartak.Domain\\FieldVisit\\Events\\FieldVisitCreatedEvent.cs",
+              "ToolTip": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\src\\Core\\Fartak.Domain\\FieldVisit\\Events\\FieldVisitCreatedEvent.cs",
+              "RelativeToolTip": "src\\Core\\Fartak.Domain\\FieldVisit\\Events\\FieldVisitCreatedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T14:26:29.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FieldVisitErrors.cs",
+              "DocumentMoniker": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\src\\Core\\Fartak.Domain\\FieldVisit\\FieldVisitErrors.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Fartak.Domain\\FieldVisit\\FieldVisitErrors.cs",
+              "ToolTip": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\src\\Core\\Fartak.Domain\\FieldVisit\\FieldVisitErrors.cs",
+              "RelativeToolTip": "src\\Core\\Fartak.Domain\\FieldVisit\\FieldVisitErrors.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAQwGYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T14:24:51.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "VisitAnswer.cs",
+              "DocumentMoniker": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\src\\Core\\Fartak.Domain\\FieldVisit\\VisitAnswer.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Fartak.Domain\\FieldVisit\\VisitAnswer.cs",
+              "ToolTip": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\src\\Core\\Fartak.Domain\\FieldVisit\\VisitAnswer.cs",
+              "RelativeToolTip": "src\\Core\\Fartak.Domain\\FieldVisit\\VisitAnswer.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAQwGgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T14:24:23.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FieldVisit.cs",
+              "DocumentMoniker": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\src\\Core\\Fartak.Domain\\FieldVisit\\FieldVisit.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Fartak.Domain\\FieldVisit\\FieldVisit.cs",
+              "ToolTip": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\src\\Core\\Fartak.Domain\\FieldVisit\\FieldVisit.cs",
+              "RelativeToolTip": "src\\Core\\Fartak.Domain\\FieldVisit\\FieldVisit.cs",
+              "ViewState": "AgIAAGQBAAAAAAAAAAAQwH4BAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T14:23:30.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "VisitScheduleId.cs",
+              "DocumentMoniker": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\src\\Core\\Fartak.Domain\\FieldVisit\\VisitScheduleId.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Fartak.Domain\\FieldVisit\\VisitScheduleId.cs",
+              "ToolTip": "D:\\Work\\Fartak\\Source\\Back\\Fartak\\src\\Core\\Fartak.Domain\\FieldVisit\\VisitScheduleId.cs",
+              "RelativeToolTip": "src\\Core\\Fartak.Domain\\FieldVisit\\VisitScheduleId.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T14:22:59.944Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
