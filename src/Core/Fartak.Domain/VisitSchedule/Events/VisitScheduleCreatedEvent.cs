@@ -12,7 +12,10 @@ namespace Fartak.Domain.VisitSchedule.Events
         long visitScheduleId,
         long caseId,
         long visitTypeId,
-        DateTime scheduledFor) : IDomainEvent
+        long? checklistTemplateId,
+        DateTime scheduledFor,
+        long statusId,
+        long? createdBy) : IDomainEvent
     {
         public DateTime OccurredOn { get; } = DateTime.UtcNow;
     }

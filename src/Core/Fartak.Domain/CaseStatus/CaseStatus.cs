@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 using Fartak.Domain.Case;
+using Fartak.Domain.CaseStatus.Events;
 using Fartak.Domain.Framework;
 
 namespace Fartak.Domain.CaseStatus

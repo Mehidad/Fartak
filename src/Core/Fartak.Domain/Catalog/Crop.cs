@@ -1,4 +1,5 @@
-﻿using Fartak.Domain.Framework;
+﻿using Fartak.Domain.Catalog.Events;
+using Fartak.Domain.Framework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -157,11 +158,14 @@ namespace Fartak.Domain.Catalog
             if (variety is null)
                 return Result.Failure(CropErrors.VarietyNotFound(Id.Value, varietyId?.Value ?? 0));
 
+            var oldTitle = variety.Title;
+
             var validation = variety.Rename(newTitle);
             if (validation.IsFailure)
                 return validation;
 
-            AddDomainEvent(new CropVarietyRenamedEvent(Id.Value, varietyId.Value, variety.Code, newTitle.Trim()));
+            AddDomainEvent(new CropVarietyRenamedEvent(
+                Id.Value, varietyId.Value, variety.Code, oldTitle, variety.Title));
             return Result.Success();
         }
 

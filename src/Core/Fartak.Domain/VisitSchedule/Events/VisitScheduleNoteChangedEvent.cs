@@ -9,7 +9,10 @@ namespace Fartak.Domain.VisitSchedule.Events
 {
     // Events/VisitScheduleNoteChangedEvent.cs — تغییر یادداشت هماهنگی
     public sealed record VisitScheduleNoteChangedEvent(
-        long visitScheduleId) : IDomainEvent
+     long visitScheduleId,
+     long caseId,
+     string? oldNote,
+     string? newNote) : IDomainEvent
     {
         public DateTime OccurredOn { get; } = DateTime.UtcNow;
     }

@@ -9,9 +9,10 @@ namespace Fartak.Domain.VisitSchedule.Events
 {
     // Events/VisitScheduleRescheduledEvent.cs — جابه‌جایی زمان بازدید (مبنای به‌روزرسانی یادآور)
     public sealed record VisitScheduleRescheduledEvent(
-        long visitScheduleId,
-        DateTime oldScheduledFor,
-        DateTime newScheduledFor) : IDomainEvent
+      long visitScheduleId,
+      long caseId,
+      DateTime oldScheduledFor,
+      DateTime newScheduledFor) : IDomainEvent
     {
         public DateTime OccurredOn { get; } = DateTime.UtcNow;
     }

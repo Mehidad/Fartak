@@ -8,6 +8,7 @@ using Fartak.Domain.Checklist;
 using Fartak.Domain.Common;
 using Fartak.Domain.Framework;
 using Fartak.Domain.User.Fartak.Domain.User;
+using Fartak.Domain.VisitSchedule.Events;
 
 namespace Fartak.Domain.Visit
 {
@@ -128,7 +129,7 @@ namespace Fartak.Domain.Visit
 
             var oldChecklistTemplateId = ChecklistTemplateId;
             ChecklistTemplateId = newChecklistTemplateId;
-            AddDomainEvent(new VisitScheduleChecklistTemplateChangedEvent(
+            AddDomainEvent(new Events.VisitScheduleChecklistTemplateChangedEvent(
                 Id.Value, CaseId.Value, oldChecklistTemplateId?.Value, newChecklistTemplateId?.Value));
             return Result.Success();
         }
@@ -145,7 +146,7 @@ namespace Fartak.Domain.Visit
                 return Result.Failure(VisitScheduleErrors.NoteUnchanged());
 
             Note = normalized;
-            AddDomainEvent(new VisitScheduleNoteChangedEvent(Id.Value, CaseId.Value));
+            AddDomainEvent(new Events.VisitScheduleNoteChangedEvent(Id.Value, CaseId.Value));
             return Result.Success();
         }
 

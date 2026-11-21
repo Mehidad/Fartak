@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Fartak.Domain.CostCategory.Events;
 using Fartak.Domain.Framework;
 
 namespace Fartak.Domain.CostCategory
@@ -155,7 +156,7 @@ namespace Fartak.Domain.CostCategory
             if (parentId is null)
                 return Result.Success();
 
-            if (parentId.Value.Value == id.Value)
+            if (parentId.Value == id.Value)
                 return Result.Failure(CostCategoryErrors.SelfParent());
 
             if (parentIsActive is null)

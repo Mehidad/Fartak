@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Fartak.Domain.Case;
 using Fartak.Domain.Framework;
+using Fartak.Domain.TrackingSequence.Events;
 
 namespace Fartak.Domain.TrackingSequence
 {

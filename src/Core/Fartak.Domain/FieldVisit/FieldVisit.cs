@@ -7,6 +7,7 @@ using System.Xml.Linq;
 using Fartak.Domain.Case;
 using Fartak.Domain.Checklist;
 using Fartak.Domain.Common;
+using Fartak.Domain.FieldVisit.Events;
 using Fartak.Domain.Framework;
 using Fartak.Domain.Unit;
 using Fartak.Domain.User.Fartak.Domain.User;

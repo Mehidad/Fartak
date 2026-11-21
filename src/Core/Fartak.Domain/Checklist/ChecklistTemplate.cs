@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 using Fartak.Domain.Catalog;
+using Fartak.Domain.Checklist.Events;
 using Fartak.Domain.Common;
 using Fartak.Domain.Framework;
 using Fartak.Domain.Unit;

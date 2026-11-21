@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Fartak.Domain.Case;
+using Fartak.Domain.CaseRecommendation.Events;
 using Fartak.Domain.FieldVisit;
 using Fartak.Domain.Framework;
 using Fartak.Domain.User.Fartak.Domain.User;
@@ -113,7 +114,7 @@ namespace Fartak.Domain.CaseRecommendation
                 return Result.Failure(CaseRecommendationErrors.VisitUnchanged(visitId?.Value));
 
             VisitId = visitId;
-            AddDomainEvent(new CaseRecommendationVisitSetEvent(Id.Value, newVisitId));
+            AddDomainEvent(new Events.CaseRecommendationVisitSetEvent(Id.Value, newVisitId));
             return Result.Success();
         }
 
