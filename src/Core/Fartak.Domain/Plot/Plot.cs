@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,7 +7,7 @@ using Fartak.Domain.Common;
 using Fartak.Domain.Framework;
 using Fartak.Domain.Plot.Events;
 using Fartak.Domain.Region;
-using Fartak.Domain.User.Fartak.Domain.User;
+using Fartak.Domain.User;
 
 namespace Fartak.Domain.Plot
 {
@@ -39,6 +39,9 @@ namespace Fartak.Domain.Plot
 
         private readonly List<SoilTest> _soilTests = new();
         public IReadOnlyCollection<SoilTest> SoilTests => _soilTests.AsReadOnly();
+
+        private readonly List<WeatherObservation> _weatherObservations = new();
+        public IReadOnlyCollection<WeatherObservation> WeatherObservations => _weatherObservations.AsReadOnly();
 
         private Plot() { } // برای EF Core
 
@@ -178,6 +181,54 @@ namespace Fartak.Domain.Plot
             _soilTests.Add(soilTest);
             AddDomainEvent(new SoilTestRecordedEvent(Id.Value, soilTestId.Value, testedAt));
             return Result<SoilTest>.Success(soilTest);
+        }
+
+        // ثبت مشاهده هواشناسی قطعه — append-only: رکوردها پس از ثبت اصلاح نمی‌شوند
+        // (تنها ویرایش مجاز، یادداشت از طریق WeatherObservation.SetNote است)
+        public Result<WeatherObservation> RecordWeatherObservation(
+            WeatherObservationId weatherObservationId,
+            DateTime observedAt,
+            double? temperatureC,
+            double? humidityPercent,
+            double? rainfallMm,
+            double? windSpeedMs,
+            string? note = null,
+            UserId? recordedBy = null)
+        {
+            if (weatherObservationId is null)
+                return Result.Failure<WeatherObservation>(WeatherObservationErrors.NullReferenceError());
+
+            if (!IsActive)
+                return Result.Failure<WeatherObservation>(PlotErrors.PlotNotActiveError(Id.Value));
+
+            var observationResult = WeatherObservation.Create(
+                weatherObservationId,
+                Id,
+                observedAt,
+                temperatureC,
+                humidityPercent,
+                rainfallMm,
+                windSpeedMs,
+                note,
+                recordedBy);
+            if (observationResult.IsFailure)
+                return Result.Failure<WeatherObservation>(observationResult.Error);
+
+            var observation = observationResult.Value;
+            _weatherObservations.Add(observation);
+
+            AddDomainEvent(new WeatherObservationRecordedEvent(Id.Value, observation.Id.Value, observedAt));
+            return Result<WeatherObservation>.Success(observation);
+        }
+
+        // ویرایش یادداشت یک مشاهده هواشناسی ثبت‌شده — تنها نقطه ویرایشِ append-only
+        public Result SetWeatherObservationNote(WeatherObservationId weatherObservationId, string? note)
+        {
+            var observation = _weatherObservations.FirstOrDefault(o => o.Id.Value == weatherObservationId.Value);
+            if (observation is null)
+                return Result.Failure(WeatherObservationErrors.NullReferenceError());
+
+            return observation.SetNote(note);
         }
 
         // قواعد مشترک Create و Update
