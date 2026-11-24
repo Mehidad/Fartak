@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Fartak.Application.Framework.Commands;
 using Fartak.Domain.Framework;
+using MediatR;
 
 namespace Fartak.Application.Role.Commands
 {
@@ -13,5 +14,5 @@ namespace Fartak.Application.Role.Commands
         string Code,
         string? Description = null,
         bool IsSystem = false
-    ) : ICommand<Result<long>>;
+    ) : IRequest<Result<long>>;
 }

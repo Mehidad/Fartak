@@ -9,11 +9,12 @@ using Fartak.Application.Framework.Commands;
 using Fartak.Domain.Framework;
 using Fartak.Domain.Role;
 using Fartak.Domain.Role.Repository;
+using MediatR;
 
 namespace Fartak.Application.Role.Commands
 {
 
-    public sealed class CreateRoleCommandHandler : ICommandHandler<CreateRoleCommand, Result<long>>
+    public sealed class CreateRoleCommandHandler : IRequestHandler<CreateRoleCommand, Result<long>>
     {
         private readonly IRoleRepository _roleRepository;
         private readonly IUnitOfWork _unitOfWork;

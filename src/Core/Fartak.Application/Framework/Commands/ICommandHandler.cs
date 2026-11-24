@@ -3,16 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Fartak.Domain.Framework;
+using MediatR;
 
 namespace Fartak.Application.Framework.Commands
 {
-    public interface ICommandHandler<TCommand>
-     : MediatR.IRequestHandler<TCommand>
-     where TCommand : ICommand
-    { }
+    public interface ICommandHandler<TCommand> : IRequestHandler<TCommand, Result>
+       where TCommand : ICommand
+    {
+    }
 
-    public interface ICommandHandler<TCommand, TResponse>
-        : MediatR.IRequestHandler<TCommand, TResponse>
+    public interface ICommandHandler<TCommand, TResponse> : IRequestHandler<TCommand, Result<TResponse>>
         where TCommand : ICommand<TResponse>
-    { }
+    {
+    }
 }
