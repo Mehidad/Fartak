@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,9 +7,7 @@ using Fartak.Domain.Case;
 using Fartak.Domain.Checklist;
 using Fartak.Domain.Common;
 using Fartak.Domain.Framework;
-using Fartak.Domain.User.Fartak.Domain.User;
-using Fartak.Domain.Visit;
-using Fartak.Domain.Visit.Events;
+using Fartak.Domain.User;
 using Fartak.Domain.VisitSchedule.Events;
 
 namespace Fartak.Domain.VisitSchedule
@@ -34,8 +32,6 @@ namespace Fartak.Domain.VisitSchedule
     //
     // تغییرناپذیرها پس از ایجاد: CaseId و CreatedBy؛ تغییر زمان فقط با Reschedule و فقط در وضعیت باز.
     // case_id تغییر نمی‌کند — زمان‌بندی برای پروندهٔ دیگر یعنی رکورد جدید.
-    // VisitSchedule.cs
-   
     public sealed class VisitSchedule : AggregateRoot<VisitScheduleId>
     {
         public const int NoteMaxLength = 500;

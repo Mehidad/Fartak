@@ -1,14 +1,11 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 using Fartak.Domain.Common;
 using Fartak.Domain.Framework;
 using Fartak.Domain.User.Events;
-using Fartak.Domain.User.Fartak.Domain.User;
-using static System.Net.WebRequestMethods;
 
 namespace Fartak.Domain.User
 {
