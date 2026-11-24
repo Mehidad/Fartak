@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Fartak.Domain.Case;
 using Fartak.Domain.Checklist;
 using Fartak.Domain.Common;
+using Fartak.Domain.FieldVisit;
 using Fartak.Domain.Framework;
 using Fartak.Domain.User;
 using Fartak.Domain.VisitSchedule.Events;
@@ -29,6 +30,9 @@ namespace Fartak.Domain.VisitSchedule
     // قاعده ارسال کد وضعیت: تجمع فقط LookupId را نگه می‌دارد؛ برای قواعد رفتاری، کدِ وضعیتِ
     // جاری و جدید از کش lookup در لایه Application کنار شناسه ارسال می‌شود — همان الگوی
     // کدِ answer_type در Aggregate FieldVisit. خودِ گذارهای مجاز، قاعدهٔ این دامنه‌اند و اینجا بسته می‌شوند.
+    //
+    // تصمیم شناسه: VisitScheduleId طبق طرح مذکور در FieldVisit/VisitScheduleId.cs، همان شناسهٔ
+    // ساخته‌شده در پوشه FieldVisit است که این تجمع بازمصرف می‌کند (همان الگوی CaseStatusId).
     //
     // تغییرناپذیرها پس از ایجاد: CaseId و CreatedBy؛ تغییر زمان فقط با Reschedule و فقط در وضعیت باز.
     // case_id تغییر نمی‌کند — زمان‌بندی برای پروندهٔ دیگر یعنی رکورد جدید.
