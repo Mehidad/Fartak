@@ -1,0 +1,19 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Fartak.Domain.Framework;
+
+namespace Fartak.Domain.CoopMembership.Events
+{
+    // اصلاح نام تعاونی
+    public sealed record CoopMembershipCoopTitleChangedEvent(
+        long coopMembershipId,
+        long farmerUserId,
+        string oldCoopTitle,
+        string newCoopTitle) : IDomainEvent
+    {
+        public DateTime OccurredOn { get; } = DateTime.UtcNow;
+    }
+}
