@@ -14,8 +14,6 @@ namespace Fartak.Domain.Delivery
 
         private DeliveryId(long value) => Value = value;
 
-        private DeliveryId(long value) => Value = value;
-
         public static DeliveryId From(long value)
         {
             if (value <= 0)
