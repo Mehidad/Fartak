@@ -12,7 +12,7 @@ namespace Fartak.Domain.CostEntry
     {
         public static readonly Error NullReference = Error.Create(
             "CostEntry.NullReference",
-            "مقادیر اجباری ردیف هزینه ارسال نشده است.");
+            "شناسهٔ ردیف هزینه ارسال نشده است.");
 
         public static readonly Error CaseNotSpecified = Error.Create(
             "CostEntry.CaseNotSpecified",
@@ -30,10 +30,14 @@ namespace Fartak.Domain.CostEntry
             "CostEntry.OccurredAtInFuture",
             "تاریخ هزینه نمی‌تواند در آینده باشد.");
 
-        public static readonly Error DescriptionTooLong = Error.Create(
-            "CostEntry.DescriptionTooLong",
-            "شرح هزینه نمی‌تواند بیش از ۲۰۰۰ نویسه باشد.",
-            new Dictionary<string, object> { ["MaxLength"] = CostEntry.MaxDescriptionLength });
+        public static Error DescriptionTooLong()
+            => Error.Create(
+                code: "CostEntry.DescriptionTooLong",
+                message: "شرح هزینه نمی‌تواند بیش از ۲۰۰۰ نویسه باشد.",
+                details: new Dictionary<string, object>
+                {
+                    ["MaxLength"] = CostEntry.MaxDescriptionLength
+                });
 
         public static readonly Error DescriptionUnchanged = Error.Create(
             "CostEntry.DescriptionUnchanged",

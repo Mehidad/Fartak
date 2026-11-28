@@ -7,7 +7,7 @@ using Fartak.Domain.Framework;
 
 namespace Fartak.Domain.CostEntry
 {
-    // شناسه یک ردیف از جدول cost_entries (هزینهٔ واقعی پرونده)
+    // شناسه یک ردیف از جدول cost_entries (ردیف‌های هزینهٔ واقعی پرونده)
     public sealed record CostEntryId
     {
         public long Value { get; }

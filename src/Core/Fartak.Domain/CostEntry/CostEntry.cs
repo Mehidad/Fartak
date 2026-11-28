@@ -89,7 +89,7 @@ namespace Fartak.Domain.CostEntry
 
             var trimmedDescription = description?.Trim();
             if (trimmedDescription is not null && trimmedDescription.Length > MaxDescriptionLength)
-                return Result.Failure<CostEntry>(CostEntryErrors.DescriptionTooLong);
+                return Result.Failure<CostEntry>(CostEntryErrors.DescriptionTooLong());
 
             var costEntry = new CostEntry(
                 id, caseId, planLineId, categoryId, amountRial, occurredAtUtc,
@@ -206,11 +206,32 @@ namespace Fartak.Domain.CostEntry
             return Result.Success();
         }
 
+        // اصلاح تاریخ هزینه — نباید در آینده باشد
+        public Result SetOccurredAt(DateTime newOccurredAtUtc)
+        {
+            if (newOccurredAtUtc.Date > DateTime.UtcNow.Date)
+                return Result.Failure(CostEntryErrors.OccurredAtInFuture);
+
+            if (newOccurredAtUtc.Date == OccurredAt.Date)
+                return Result.Success();
+
+            var oldOccurredAt = OccurredAt;
+            OccurredAt = newOccurredAtUtc;
+
+            AddDomainEvent(new CostEntryOccurredAtChangedEvent(
+                Id.Value,
+                CaseId.Value,
+                oldOccurredAt,
+                newOccurredAtUtc));
+
+            return Result.Success();
+        }
+
         public Result SetDescription(string? description)
         {
             var trimmedDescription = description?.Trim();
             if (trimmedDescription is not null && trimmedDescription.Length > MaxDescriptionLength)
-                return Result.Failure(CostEntryErrors.DescriptionTooLong);
+                return Result.Failure(CostEntryErrors.DescriptionTooLong());
 
             if (trimmedDescription == Description)
                 return Result.Failure(CostEntryErrors.DescriptionUnchanged);
